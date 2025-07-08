@@ -8,27 +8,33 @@
   </head>
   <body>
     <div class="container">
-        <header class="todo-header">
-            <h2 class="main-header">Empans att göra</h2>
-            <i class="fa-regular fa-clipboard fa-lg"></i>
-        </header>
+      <header class="todo-header">
+        <h2 class="main-header">Empans att göra</h2>
+        <i class="fa-regular fa-clipboard fa-lg"></i>
+      </header>
 
-        <section class="todo-body">
-          <input type="text" id="todoText" class="todo-input" placeholder="Detta ska göras..">
-          <i class="fa-regular fa-square-plus fa-lg" id="addUpdateClick" onclick="createTodoItems()"></i>
-        </section>
+      <section class="todo-body">
+        <input
+          type="text"
+          id="todoText"
+          class="todo-input"
+          placeholder="Detta ska göras.."
+        />
+        <i
+          class="fa-regular fa-square-plus fa-lg"
+          id="addUpdateClick"
+          onclick="createTodoItems()"
+        ></i>
+      </section>
 
-        <h5 id="alert"></h5>
-        <ul id="listItems" class="listItems"></ul>
-
-
-
-
-
-
+      <h5 id="alert"></h5>
+      <ul id="listItems" class="listItems"></ul>
     </div>
 
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/d595c398ce.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d595c398ce.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
